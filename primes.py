@@ -24,4 +24,14 @@ for s in primes():
         break
         
         
-  
+#200到300之间的素数
+result = []
+for i in range(200, 301):
+    r = 0
+    for n in range(1, i+1):
+        if i % n == 0:
+            r += 1
+    if r == 2:
+        result.append(n)
+
+print(result)
