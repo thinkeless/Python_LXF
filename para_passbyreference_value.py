@@ -14,3 +14,7 @@ def try_to_change_list_reference(the_list):
 print('bef_list', org_list)
 try_to_change_list_reference(org_list)
 print('after_list', org_list)
+print("------------------------------")
+print('bef_list', org_list)
+try_to_change_list_content(org_list)
+print('after_list', org_list)
